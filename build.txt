@@ -1,0 +1,7 @@
+cd *****\jfprogrammer\rld\dist\
+
+Docco:
+docco -c ../css/rld.docco.css -o "../docs" rld.1.0.0.js
+
+Uglify:
+uglifyjs rld.1.0.0.js --output rld.1.0.0.min.js --comments --compress --mangle reserved=['rld'] --source-map
