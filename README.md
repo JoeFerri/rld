@@ -167,3 +167,12 @@ At the moment *Rld* is still under testing.
 ### Why is it called a *rld*?
 
 The term **rld** is the union of the **Ready** **Loaded** **Document** initials and indicates the two events related to the loading of the DOM and `document` resources.
+
+# See also
+
+* [JFProgrammer](https://jfprogrammer.altervista.org/rld/ "Rld")
+* [Source code with comments](https://jfprogrammer.altervista.org/rld/docs/rld.1.0.0.html "Source code with comments")
+* [Example 1](https://jfprogrammer.altervista.org/rld/test/example1.html "Example 1")
+* [Example 1 incorrect](https://jfprogrammer.altervista.org/rld/test/example1_incorrect.html "Example 1 incorrect")
+* [Example 2](https://jfprogrammer.altervista.org/rld/test/example2.html "Example 2")
+* [Example 3](https://jfprogrammer.altervista.org/rld/test/example3.html "Example 3")
