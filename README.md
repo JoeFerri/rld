@@ -22,11 +22,11 @@ Using **Rld** we can control the moment in which the external scripts are insert
 ## Installation
 
 * inline (this is the safest method!)
-  * download the file [rld.min.js](https://jfprogrammer.altervista.org/rld/dist/rld.1.0.0.min.js) ([rld.js](https://jfprogrammer.altervista.org/rld/dist/rld.1.0.0.js) if you are debugging)
-  * open the file with a simple text editor
-  * copy the contents of the file
-  * create a `<script></script>` tag in your *html code*
-  * paste the contents of the file into the tag
+  * download the file [rld.min.js](https://jfprogrammer.altervista.org/rld/dist/rld.1.0.0.min.js) ([rld.js](https://jfprogrammer.altervista.org/rld/dist/rld.1.0.0.js) if you are debugging)
+  * open the file with a simple text editor
+  * copy the contents of the file
+  * create a `<script></script>` tag in your *html code*
+  * paste the contents of the file into the tag
   > e.g.
   >
   > ```html
@@ -35,8 +35,8 @@ Using **Rld** we can control the moment in which the external scripts are insert
   > ```
   > _
 * external
-  * download the file [rld.min.js](https://jfprogrammer.altervista.org/rld/dist/rld.1.0.0.min.js) ([rld.js](https://jfprogrammer.altervista.org/rld/dist/rld.1.0.0.js) if you are debugging) or note the file link in the server
-  * create a tag `<script src=_path_></script>` into your html code (`_path_` is the address to the *rld.js* file)
+  * download the file [rld.min.js](https://jfprogrammer.altervista.org/rld/dist/rld.1.0.0.min.js) ([rld.js](https://jfprogrammer.altervista.org/rld/dist/rld.1.0.0.js) if you are debugging) or note the file link in the server
+  * create a tag `<script src=_path_></script>` into your html code (`_path_` is the address to the *rld.js* file)
   > e.g.
   >
   > ```html
