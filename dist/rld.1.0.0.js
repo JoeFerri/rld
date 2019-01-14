@@ -76,7 +76,7 @@
 
         // Insert the new script element into the body, head or html element
         var el = document.querySelector('body') || document.querySelector('head') || document.querySelector('html');
-        el.insertAdjacentElement('beforeend ', itself);
+        el.insertAdjacentElement('beforeend', itself);
     }
 
     // ## Events
