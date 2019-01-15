@@ -22,7 +22,7 @@ Using **Rld** we can control the moment in which the external scripts are insert
 ## Installation
 
 * inline (this is the safest method!)
-  * download the file [rld.min.js](https://jfprogrammer.altervista.org/rld/dist/rld.1.0.0.min.js) ([rld.js](https://jfprogrammer.altervista.org/rld/dist/rld.1.0.0.js) if you are debugging)
+  * download the file [rld.min.js](https://jfprogrammer.altervista.org/rld/dist/rld.min.js) ([rld.js](https://jfprogrammer.altervista.org/rld/dist/rld.js) if you are debugging)
   * open the file with a simple text editor
   * copy the contents of the file
   * create a `<script></script>` tag in your *html code*
@@ -35,12 +35,12 @@ Using **Rld** we can control the moment in which the external scripts are insert
   > ```
   > _
 * external
-  * download the file [rld.min.js](https://jfprogrammer.altervista.org/rld/dist/rld.1.0.0.min.js) ([rld.js](https://jfprogrammer.altervista.org/rld/dist/rld.1.0.0.js) if you are debugging) or note the file link in the server
+  * download the file [rld.min.js](https://jfprogrammer.altervista.org/rld/dist/rld.min.js) ([rld.js](https://jfprogrammer.altervista.org/rld/dist/rld.js) if you are debugging) or note the file link in the server
   * create a tag `<script src=_path_></script>` into your html code (`_path_` is the address to the *rld.js* file)
   > e.g.
   >
   > ```html
-  > <script src="https://jfprogrammer.altervista.org/rld/dist/rld.1.0.0.min.js"></script>
+  > <script src="https://jfprogrammer.altervista.org/rld/dist/rld.min.js"></script>
   > ```
   > _
 
@@ -171,7 +171,7 @@ The term **rld** is the union of the **Ready** **Loaded** **Document** initials 
 # See also
 
 * [JFProgrammer](https://jfprogrammer.altervista.org/rld/ "Rld")
-* [Source code with comments](https://jfprogrammer.altervista.org/rld/docs/rld.1.0.0.html "Source code with comments")
+* [Source code with comments](https://jfprogrammer.altervista.org/rld/docs/rld.html "Source code with comments")
 * [Example 1](https://jfprogrammer.altervista.org/rld/test/example1.html "Example 1")
 * [Example 1 incorrect](https://jfprogrammer.altervista.org/rld/test/example1_incorrect.html "Example 1 incorrect")
 * [Example 2](https://jfprogrammer.altervista.org/rld/test/example2.html "Example 2")
