@@ -176,6 +176,12 @@ At the moment *Rld* is still under testing.
 
 The term **rld** is the union of the **Ready** **Loaded** **Document** initials and indicates the two events related to the loading of the DOM and `document` resources.
 
+# Source
+
+* [rld.js](https://jfprogrammer.altervista.org/rld/dist/rld.js "rld.js") (last update)
+* [rld.min.js](https://jfprogrammer.altervista.org/rld/dist/rld.min.js "rld.min.js") (last update)
+* [rld.min.js.map](https://jfprogrammer.altervista.org/rld/dist/rld.min.js.map "rld.min.js.map") (last update)
+
 # See also
 
 * [JFProgrammer](https://jfprogrammer.altervista.org/rld/ "Rld")
