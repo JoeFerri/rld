@@ -17,7 +17,15 @@ Using **Rld** we can control the moment in which the external scripts are insert
 * cross browser compatibility
 
 
-# `rld.js`
+# *rld.js*
+
+## data-rld
+
+When it is loaded, *rld.js* looks for the `<script>` tag that generated it.
+
+The `data-rld` attribute helps *rld.js* in this search.
+
+`data-rld` is optional but recommended.
 
 ## Installation
 
@@ -25,22 +33,22 @@ Using **Rld** we can control the moment in which the external scripts are insert
   * download the file [rld.min.js](https://jfprogrammer.altervista.org/rld/dist/rld.min.js) ([rld.js](https://jfprogrammer.altervista.org/rld/dist/rld.js) if you are debugging)
   * open the file with a simple text editor
   * copy the contents of the file
-  * create a `<script></script>` tag in your *html code*
+  * create a `<script data-rld></script>` tag in your *html code*
   * paste the contents of the file into the tag
   > e.g.
   >
   > ```html
-  > <script>/** @license Rld (Ready Loaded Document) may be freely distributed under the GNU AGPLv3 license. (c) 2018-2018 Giuseppe Ferri */
+  > <script data-rld>/** @license Rld (Ready Loaded Document) may be freely distributed under the GNU AGPLv3 license. (c) 2018-2018 Giuseppe Ferri */
   > !function(r,u,e){if(!r||!u)throw new Error("rld needs a window and a document!");if(!u.querySelector("html"))throw new Error("rld needs a html element!"); [...]</script>
   > ```
   > _
 * external
   * download the file [rld.min.js](https://jfprogrammer.altervista.org/rld/dist/rld.min.js) ([rld.js](https://jfprogrammer.altervista.org/rld/dist/rld.js) if you are debugging) or note the file link in the server
-  * create a tag `<script src=_path_></script>` into your html code (`_path_` is the address to the *rld.js* file)
+  * create a tag `<script data-rld src=_path_></script>` into your html code (`_path_` is the address to the *rld.js* file)
   > e.g.
   >
   > ```html
-  > <script src="https://jfprogrammer.altervista.org/rld/dist/rld.min.js"></script>
+  > <script data-rld src="https://jfprogrammer.altervista.org/rld/dist/rld.min.js"></script>
   > ```
   > _
 
@@ -172,7 +180,4 @@ The term **rld** is the union of the **Ready** **Loaded** **Document** initials 
 
 * [JFProgrammer](https://jfprogrammer.altervista.org/rld/ "Rld")
 * [Source code with comments](https://jfprogrammer.altervista.org/rld/docs/rld.html "Source code with comments")
-* [Example 1](https://jfprogrammer.altervista.org/rld/test/example1.html "Example 1")
-* [Example 1 incorrect](https://jfprogrammer.altervista.org/rld/test/example1_incorrect.html "Example 1 incorrect")
-* [Example 2](https://jfprogrammer.altervista.org/rld/test/example2.html "Example 2")
-* [Example 3](https://jfprogrammer.altervista.org/rld/test/example3.html "Example 3")
+* [Test Examples](https://jfprogrammer.altervista.org/rld/test "Test Examples")
