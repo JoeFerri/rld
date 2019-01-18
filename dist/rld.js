@@ -17,7 +17,7 @@
  |           "version":"1.0.0-beta0",
  |           "copyright":"2018",
  |           "license":"https://www.gnu.org/licenses/agpl.html",
- |           "required":"ECMAScript(JavaScript) v.2016"
+ |           "required":"ECMAScript(JavaScript) ES2015"
  |         }
 */
 
@@ -43,7 +43,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program (see file COPYING).  If not, see <http://www.gnu.org/licenses/>.
  *
- * Required: ECMAScript(JavaScript) v.2016
+ * Required: ECMAScript(JavaScript) ES2015
  * Date: 2018-12-23T00:00Z
  */
 
