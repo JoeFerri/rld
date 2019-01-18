@@ -1,4 +1,4 @@
-//     rld.js 1.0.0-beta0
+//     rld.js 1.0.0-beta1
 //     https://jfprogrammer.altervista.org/rld
 //     (c) 2018-2019 Giuseppe Ferri
 //     Rld (Ready Loaded Document) may be freely distributed under the GNU AGPLv3 license.
@@ -14,7 +14,7 @@
  | script:{
  |           "name":"rld",
  |           "author":"Giuseppe Ferri",
- |           "version":"1.0.0-beta0",
+ |           "version":"1.0.0-beta1",
  |           "copyright":"2018",
  |           "license":"https://www.gnu.org/licenses/agpl.html",
  |           "required":"ECMAScript(JavaScript) ES2015"
@@ -22,10 +22,10 @@
 */
 
 /*!
- * Rld JavaScript Code v1.0.0-beta0
+ * Rld JavaScript Code v1.0.0-beta1
  * https://jfprogrammer.altervista.org/rld
  *
- * Copyright (C) 2018-2019 Giuseppe Ferri
+ * Copyright (C) 2018 Giuseppe Ferri
  * 
  * Released under the GNU AGPLv3 license
  * https://www.gnu.org/licenses/agpl.html
@@ -53,6 +53,20 @@
 (function(win, doc, path) {
     if (!(win && doc)) throw new Error("rld needs a window and a document!");
     if (!doc.querySelector('html')) throw new Error("rld needs a html element!");
+
+    // # polyfill
+
+    // ## endsWith
+    // by https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith#Polyfill
+    // issue #4 solved! IE 11.0.9, Safari 5.1.7
+    if (!String.prototype.endsWith) {
+      String.prototype.endsWith = function(search, this_len) {
+        if (this_len === undefined || this_len > this.length) {
+          this_len = this.length;
+        }
+        return this.substring(this_len - search.length, this_len) === search;
+      };
+    }
 
     // custom options
     var rld = typeof win.rld === "object" ? win.rld : {
