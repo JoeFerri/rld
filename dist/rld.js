@@ -1,4 +1,4 @@
-//     rld.js 1.0.0-beta
+//     rld.js 1.0.0-beta0
 //     https://jfprogrammer.altervista.org/rld
 //     (c) 2018-2019 Giuseppe Ferri
 //     Rld (Ready Loaded Document) may be freely distributed under the GNU AGPLv3 license.
@@ -14,7 +14,7 @@
  | script:{
  |           "name":"rld",
  |           "author":"Giuseppe Ferri",
- |           "version":"1.0.0-beta",
+ |           "version":"1.0.0-beta0",
  |           "copyright":"2018",
  |           "license":"https://www.gnu.org/licenses/agpl.html",
  |           "required":"ECMAScript(JavaScript) v.2016"
@@ -22,7 +22,7 @@
 */
 
 /*!
- * Rld JavaScript Code v1.0.0-beta
+ * Rld JavaScript Code v1.0.0-beta0
  * https://jfprogrammer.altervista.org/rld
  *
  * Copyright (C) 2018-2019 Giuseppe Ferri
