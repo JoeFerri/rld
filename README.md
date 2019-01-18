@@ -178,7 +178,7 @@ The term **rld** is the union of the **Ready** **Loaded** **Document** initials 
 
 # Source
 
-**last update: v1.0.0-beta0**
+**last update: v1.0.0-beta1**
 * [rld.js](https://jfprogrammer.altervista.org/rld/dist/rld.js "rld.js") (last update)
 * [rld.min.js](https://jfprogrammer.altervista.org/rld/dist/rld.min.js "rld.min.js") (last update)
 * [rld.min.js.map](https://jfprogrammer.altervista.org/rld/dist/rld.min.js.map "rld.min.js.map") (last update)
