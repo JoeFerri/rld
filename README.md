@@ -166,12 +166,11 @@ window.rld = {
 };
 ```
 
-
-## Rld Known Issues and Limitations
+# Rld Known Issues and Limitations
 
 At the moment *Rld* is still under testing.
 
-## Browser Support tested
+# Browser Support tested
 
 ### Desktop - Windows:
 | Browser    | Version           |Support|
@@ -189,10 +188,10 @@ At the moment *Rld* is still under testing.
 | Firefox    | 64.0.2            | yes   |
 | Chrome     | 71.0.3578.98      | yes   |
 | Opera      | 49.2.2361.134358  | yes   |
-| Opera Mini | 38.0.2254.134507  | no   |
+| Opera Mini | 38.0.2254.134507  | no    |
 
 
-### Why is it called a *rld*?
+# Why is it called a *rld*?
 
 The term **rld** is the union of the **Ready** **Loaded** **Document** initials and indicates the two events related to the loading of the DOM and `document` resources.
 
