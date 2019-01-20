@@ -171,6 +171,26 @@ window.rld = {
 
 At the moment *Rld* is still under testing.
 
+## Browser Support tested
+
+### Desktop - Windows:
+| Browser    | Version           |Support|
+|:-----------|------------------:|:-----:|
+| UC Browser | 7.0.185.1002      | yes   |
+| Chrome     | 71.0.3578.98      | yes   |
+| Safari     | 5.1.7 (7534.57.2) | yes   |
+| Opera      | 57.0.3098.116     | yes   |
+| Firefox    | 64.0.2            | yes   |
+
+### Mobile - Android 5.1.1
+| Browser    | Version           |Support|
+|:-----------|------------------:|:-----:|
+| Edge       | 42.0.0.2851       | yes   |
+| Firefox    | 64.0.2            | yes   |
+| Chrome     | 71.0.3578.98      | yes   |
+| Opera      | 49.2.2361.134358  | yes   |
+| Opera Mini | 38.0.2254.134507  | no   |
+
 
 ### Why is it called a *rld*?
 
