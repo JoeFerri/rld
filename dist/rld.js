@@ -1,9 +1,9 @@
 //     rld.js 1.0.0-beta1
 //     https://jfprogrammer.altervista.org/rld
-//     (c) 2018-2019 Giuseppe Ferri
+//     (c) 2018-2019 Giuseppe Ferri <jfinfoit@gmail.com>
 //     Rld (Ready Loaded Document) may be freely distributed under the GNU AGPLv3 license.
 
-/** @license Rld (Ready Loaded Document) may be freely distributed under the GNU AGPLv3 license. (c) 2018-2019 Giuseppe Ferri */
+/** @license Rld (Ready Loaded Document) may be freely distributed under the GNU AGPLv3 license. (c) 2018-2019 Giuseppe Ferri <jfinfoit@gmail.com> */
 
 // * [Home](https://jfprogrammer.altervista.org/rld/index.html  "Home")
 // * [rld.js](https://jfprogrammer.altervista.org/rld/dist/rld.js  "Rld")
@@ -25,7 +25,7 @@
  * Rld JavaScript Code v1.0.0-beta1
  * https://jfprogrammer.altervista.org/rld
  *
- * Copyright (C) 2018 Giuseppe Ferri
+ * Copyright (C) 2018 Giuseppe Ferri <jfinfoit@gmail.com>
  * 
  * Released under the GNU AGPLv3 license
  * https://www.gnu.org/licenses/agpl.html
